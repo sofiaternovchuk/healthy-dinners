@@ -1,0 +1,31 @@
+header{
+    color:rgb(238, 140, 192);
+    font-size: 25px
+}
+h1{
+    color: rgb(91, 80, 237);
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(147, 169, 211, 0.1),
+    3px 4px 4px rgba(147, 169, 211, 0.15),
+    4px 6px 4px rgba(147, 175, 211, 0.2),
+    5px 8px 4px rgba(147, 154, 211, 0.219);
+}
+body{
+    background-color:antiquewhite;
+    color:#010101;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 40px 80px 40px 80px;
+    
+}
+h3{
+    color: rgb(91, 80, 237);
+    font-size: 25px;
+}
+nav {
+    font-size: 20px;
+}
+a.active {
+    font-weight: bold;
+    color:#aa1919;
+}
+

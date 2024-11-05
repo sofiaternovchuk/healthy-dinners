@@ -1,0 +1,52 @@
+body{
+    background-color:antiquewhite;
+    color:#010101;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 40px 80px 40px 80px;
+}
+h3{
+    color: rgb(91, 80, 237);
+    font-size: 25px;
+}
+h2{
+    text-align: center;
+    color:rgb(238, 140, 192);
+    font-size: 30px
+}
+h4{
+    color: rgb(91, 80, 237);
+    font-size: 20px;
+}
+.picture_right {
+    float:right;
+    margin-left: 20px;
+}
+table {
+    background-image: url(images/bckgrn.jpg);
+	width: 100%;
+	margin-bottom: 20px;
+	border-collapse: collapse; 
+}
+table th {
+	font-weight: bold;
+	padding: 5px;
+	background: rgb(238, 140, 192);
+	border: 1px solid #131213;
+}
+table td {
+	border: 1px solid #663500;
+	padding: 5px;
+}
+table tr td:first-child, .table tr th:first-child {
+	border-left: none;
+}
+table tr td:last-child, .table tr th:last-child {
+	border-right: none;
+}
+nav {
+    font-size: 20px;
+}
+a.active {
+    font-weight: bold;
+    color:#aa1919;
+}

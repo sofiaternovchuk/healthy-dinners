@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylemain.css">
+    <title>Главная</title>
+
+<body>
+    <header>
+        <h1 style="position: relative; text-align: center;"><b>Stay healthy</b></h1>
+        <hr>
+        <h2 style="position: relative; text-align: center;">Идеи для здорового ужина</h2>
+    </header>
+    <a name = "Навигация"></a>
+    <h3>Навигация</h3>
+   <nav>
+    <ul>
+        <li><a href="index.html" class="active">О нас</a></li>
+        <li><div style="color: rgb(93, 40, 178);">Рецепты:</div>
+            <ol>
+                <li><a href="recipe1.html">Рецепт №1</a></li>
+                <li><a href="recipe2.html">Рецепт №2</a></li>
+                <li><a href="recipe3.html">Рецепт №3</a></li>
+            </ol>
+        </li>
+        <li><a href="#Предложения">Предложить свою идею</a></li>
+        <li><a href="https://www.hse.ru/" target="_blank">Наш спонсор</a></li>
+    </ul>
+   </nav>
+   <br>
+   <main>
+    <article>
+        <section>
+            <h3>О нас</h3>
+            <p>Добро пожаловать в <b><i>"Stay healthy" </i></b>- проект, который создан <b>с любовью и заботой</b> для всех, кто хочет следить за своим здоровьем и тратить на это минимум времени!
+            <br>
+            Здесь вы научитесь готовить сбалансированные блюда быстро и из самых доступных продуктов, а правильное питание станет <b>неотъемлемой</b> и приятной частью вашей жизни.
+            <br><br>
+            В этом разделе нашего проекта мы подготовили для вас три варианта вкусных и полезных ужинов, на приготовление каждого из которых уйдет не больше <b>20 минут</b>. 
+            <br>
+            Для вашего удобства рядом с каждым продуктом в списке ингредиентов указаны их КБЖУ, а также, если нажать на фото продукта, можно сразу перейти на страницу необходимого вам продукта на сайте "ВкусВилл". 
+            <br>
+            С помощью этой функции вы сможете быстро заказать недостающие продукты, например, по дороге с работы или учебы. Мы надеемся, что это поможет еще больше облегчить вам приготовление ужина.
+            <br><br>
+            Наша команда <b>искренне верит</b>, что здоровое питание может быть приятным!
+            <br><br>
+            А если вы все еще сомневаетесь в том, нужно ли вам это, мы подготовили для вас несколько причин, почему правильное питание так важно и какую роль оно играет в нашей жизни.
+        </p>
+        <h4>Почему нужно делать выбор в пользу здоровой еды?</h4>
+     <ol>
+        <li>Улучшение внешнего вида:
+            <ul>
+                <li>Здоровые и густые волосы</li>
+                <li>Чистая и гладкая кожа</li>
+                <li>Отсутсвие лишнего веса</li>
+                <li>Крепкие ногти</li>
+            </ul>
+        </li>
+        <li><a href="https://www.nytimes.com/2021/05/06/well/eat/mental-health-food.html#">Нормализация настроения</a>: вы станете менее раздражительными, будете чувствовать себя более уверенно. </li>
+        <li>Дополнительная энергия: сбалансированный рацион часто дает силы, энергию, энтузиазм, которых не хватает многим городским жителям.</li>
+        <li>Снижение рисков возникновения:
+            <ul>
+                <li>Онкологии</li>
+                <li>Сахарного диабета</li>
+                <li>Ожирения</li>
+                <li>Сердечно-сосудистых заболеваний</li>
+                <li>Проблем с ЖКТ</li>
+            </ul>
+        </li>
+     </ol>
+        </section>
+    </article>
+    <br><br>
+    <a name = "Предложения"></a>
+    <h3>Есть предложения по улучшению нашего проекта? Оставьте заявку и мы ее обязательно рассмотрим!</h3>
+    <br>
+    <form name="signup" action="https://www.google.com/?client=safari&channel=iphone_bm" method="get">
+        <div>
+            <label>Имя</label>
+            <input type="text" name="name" value="Иван" />
+        </div>
+        <br>
+        <div>
+            <label>Фамилия</label>
+            <input type="text" name="surname" value="Иванов" />
+        </div>
+        <br>
+        <div>
+            <label>Адрес электронной почты</label>
+            <input type="email" name="email" value="ivanov10@gmail.com" />
+        </div>
+        <br>
+        <div>
+            <label>Номер телефона</label>
+            <input type="tel" name="number" value="+79205553198" /> 
+        </div>
+        <br>
+        <div>
+            <label>Укажите Ваш пол:</label>
+            <input type="radio" name="sex" value="0" /> Мужчина
+            <input type="radio" name="sex" value="1" /> Женщина
+        </div>
+        <br>
+        <div>
+            <label>Укажите Ваш возраст:</label>
+            <input type="number" name="age" value="25" /> 
+        </div>
+        <br>
+            <label>Укажите причину обращения:</label>
+            <select name="year">
+                <option value="recipes">Предложение по улучшению/дополнению рецептов</option>
+                <option value="site">Предложение по улучшению сайта</option>
+                <option value="join">Желание присоединиться к нашей команде</option>
+                <option value="question">Вопрос к нашей команде</option>
+                <option value="complain">Жалоба</option>
+                <option value="other">Другое</option>
+            </select>
+        <br><br>
+            <div>
+                <label>Укажите дату заполнения формы:</label>
+                <input type="date" name="date" value="01/01/2024" />
+            </div>
+            <br>
+            <div>
+                <textarea placeholder="Введите текст Вашего обращения..."></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Я согласен(-на) на обработку своих персональных данных</label>
+                <input type="checkbox" name="data" />
+            </div>
+            <br>
+        <input type="submit" name="signup" value="Отправить" />
+    </form>
+
+   </main>
+
+</body>
+</html>
